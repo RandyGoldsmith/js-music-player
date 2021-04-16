@@ -60,6 +60,17 @@ h3 {
     cursor: pointer;    
 }
 
+/* volume controls and buttons */
+
+.fa-volume-down,
+.fa-volume-up {
+    font-size: 20px;
+}
+
+.volume-container {
+    margin-bottom: 15px;
+}
+
 
 
 
@@ -77,7 +88,7 @@ h3 {
     background: #242323;
     border-radius: 5px;
     height: 100%;
-    width: 66%;
+    width: 0;
     transition: width 0.1 linear;
 }
 

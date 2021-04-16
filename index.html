@@ -13,19 +13,26 @@
         <div class="img-container">
             <img src="img/BioUnit.jpg" alt="Album Art">
         </div>
-        <div class="track-name">
+        <div class="track-name" id="name">
             <h2>Aerial</h2>
         </div>
-        <div class="track-artist">
+        <div class="track-artist" id="artist">
             <h3>Bio Unit</h3>
         </div>
-        <audio src="music/BioUnit.mp3" controls></audio> 
+        <audio src="music/BioUnit.mp3"></audio> 
         <!--Progress Bar-->
         <div class="progress-container">
             <div class="progress"></div>
             <div class="duration-wrapper">
                 <span id="current-time">0:00</span>
                 <span id="end-time">4:21</span>
+            </div>
+        </div>
+        <div class="volume-container">
+            <div class="volume">
+                <i class="fas fa-volume-down" id="down"></i>
+                <input type="range" min="0" max="100" value="50" step="10" id="volume_slider" onChange="setVolume()">
+                <i class="fas fa-volume-up" id="up"></i>
             </div>
         </div>
         <!--Control Buttons-->
