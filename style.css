@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: limegreen;
+    font-family: 'Playfair Display', serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.4);
+}
+
+.img-container {
+    width: 250px;
+    height: 325px;
+}
+
+.player-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.track-name {
+    font-size: 3rem;
+}
+
+.track-artist {
+    font-size: 1.5rem;
+}
+
+h2 {
+    margin: 10px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.fa-backward,
+.fa-forward,
+.fa-play {
+    padding: 10px;
+}
+
+.fa-backward,
+.fa-forward,
+.fa-play:hover {
+    cursor: pointer;
+}
+
+.progress-container {
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px 20px;
+    height: 4px;
+    width: 90%;
+}
+
+.progress {
+    background: #242323;
+    border-radius: 5px;
+    height: 100%;
+    width: 66%;
+    transition: width 0.1 linear;
+}
+
+.duration-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
