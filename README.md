@@ -1,6 +1,17 @@
-# JavaScript Music Player
-<img src="/snippet1.png" raw="true" width="700px" height="500px" alt="music player image">
-<img src="/snippet2.png" raw="true" width="700px" height="500px" alt="music player image">
+<h1 align="center">JavaScript Music Player</h1>
+
+
+<p align="center">
+  <a href="https://goofy-lichterman-25613b.netlify.app">Live Demo</a>
+</p>
+
+
+<p align="center">
+  <img src="/snippet1.png" raw="true" width="700px" height="500px" alt="music player image">
+  <img src="/snippet2.png" raw="true" width="700px" height="500px" alt="music player image">
+</p>
+
+                                                                                                                                                                           
 
 ## Description
 A music player based on ZTM's course "Build 20 projects", but customized with more features. To start the music player, you just hit the play button. You can also click anywhere 
@@ -9,7 +20,6 @@ or wait for the song to end and it will automatically go to the next song. To mo
 The music player also has volume control to where you can click on the volume bar or the volume buttons to adjust the volume as needed.
 You can also see different backgrounds for each song played as well as the current song being played and the artist. 
 
-## Demo
 
 
 ## Technologies Used
