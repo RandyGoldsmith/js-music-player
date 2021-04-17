@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: limegreen;
+    background-color: rgb(201, 212, 201);
     font-family: 'Playfair Display', serif;
 }
 
@@ -75,7 +75,7 @@ h3 {
 
 
 
-.progress-container {
+#progress-container {
     background: #fff;
     border-radius: 5px;
     cursor: pointer;
@@ -85,7 +85,7 @@ h3 {
 }
 
 .progress {
-    background: #242323;
+    background: black;
     border-radius: 5px;
     height: 100%;
     width: 0%;

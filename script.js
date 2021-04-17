@@ -37,7 +37,6 @@ const play_list = [
     }
 ]
 
-// Functions for controls
 function playMusic() {
     isPlaying = true;
     playBtn.classList.replace('fa-play', 'fa-pause');
@@ -85,6 +84,7 @@ function updateProgressBar(e) {
     if(isPlaying) {
         const { duration, currentTime } = e.srcElement;
         let progressBarPercentage = (currentTime / duration) * 100;
+        // sets width of progress bar in css
         progress.style.width = `${progressBarPercentage}%`;
 
         const durationMin = Math.floor(duration / 60);
@@ -104,7 +104,18 @@ function updateProgressBar(e) {
     }
 }
 
+function setProgressBar(e) {
+    // the width of the progress bar
+    const width = this.clientWidth;
+    // a number representing where you click on in the progress bar
+    let clickX = e.offsetX;
+    const { duration } = music;
+    music.currentTime = (clickX / width) * duration;
+}
+
 // Event listeners 
+music.addEventListener('ended', nextSong);
+progressContainer.addEventListener('click', setProgressBar);
 playBtn.addEventListener('click', () => (isPlaying ? pauseMusic() : playMusic()));
 previousBtn.addEventListener('click', previousSong);
 nextBtn.addEventListener('click', nextSong);
