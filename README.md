@@ -1,6 +1,6 @@
 # JavaScript Music Player
-<img src="/snippet1.png" raw="true" style="width: 20px; height: 20px;" alt="music player image">
-
+<img src="/snippet1.png" raw="true" width="700px" height="500px" alt="music player image">
+<img src="/snippet2.png" raw="true" width="700px" height="500px" alt="music player image">
 
 ## Description
 A music player based on ZTM's course "Build 20 projects", but customized with more features. To start the music player, you just hit the play button. You can also click anywhere 
