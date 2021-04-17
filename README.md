@@ -1,5 +1,5 @@
 # JavaScript Music Player
-
+[image](https://github.com/RandyGoldsmith/js-music-player/blob/main/snippet1.png)
 
 ## Description
 A music player based on ZTM's course "Build 20 projects", but customized with more features. To start the music player, you just hit the play button. You can also click anywhere 
